@@ -13,6 +13,15 @@
 [Reference1](https://stackoverflow.com/questions/43454882/paint-over-qlabel-with-pyqt) <br>
 [Reference2](https://sites.google.com/site/rexstribeofimageprocessing/chan-vese-active-contours/wubiaotitiezi)
 
+5. In Hough Transform (Line, Circle), if there are many shapes in picture makes process become very slow.
+
+6. Draw (line or circle) in the picture after detection of them <br>
+<span style = "color:green">Solved By:</span> Using [Image Draw Module - Pillow](https://pillow.readthedocs.io/en/3.1.x/reference/ImageDraw.html)
+
+7. In Hough Transform Circle, circles after detection show shifted in image<br>
+<span style = "color:green">Solved By:</span> Using another iteration method to compute accumulator (with help of Christeen Ramsis)
+
+
 
 # Results
 
